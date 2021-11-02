@@ -1,7 +1,7 @@
 # VRDL HW1
 
 ## 1. Specification of dependencies
-I train and inference my model in **colab** environment. Because my model included **Efficientnet b2~b4** and **RegNet**, they only provided by **torchvision>=0.11.0**, so we need to install new version of torch and torchvision.
+I train and inference my model in **colab** environment. Because my model included **Efficientnet b2~b4** and **RegNet**, they only provided by **torchvision>=0.11.0**, so we need to install new version of torch and torchvision in **colab**.
 ```
 pip install torch==1.10.0
 pip install torchvision==0.11.1
