@@ -66,7 +66,7 @@ VRDL_HW1
 ```
 
 ## 5. Results and Inference
-You can use `inference.py` to predict the answer of image, and save your answer int `answer.txt`.
+You can use `inference.py` to predict the answer of image, and save your answer in `answer.txt`.
 * For ensemble 6 models I have trained: 75.9% (highest)
 
     `python inference.py --ensemble=1`
