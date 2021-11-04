@@ -67,31 +67,31 @@ VRDL_HW1
 
 ## 5. Results and Inference
 You can use `inference.py` to predict the answer of image, and save your answer int `answer.txt`.
-* For ensemble 6 models I have trained:
+* For ensemble 6 models I have trained: 75.9% (highest)
 
     `python inference.py --ensemble=1`
 
-* For ResNeXt101 model:
+* For ResNeXt101 model: 69.5%
 
     `python inference.py --model=resnext101`
 
-* For ResNet50 model:
+* For ResNet50 model: 64.7%
 
     `python inference.py --model=resnet50`
 
-* For RegNet model:
+* For RegNet model: 67.9%
 
     `python inference.py --model=regnet`
 
-* For EfficientNet b2 model:
+* For EfficientNet b2 model: 62.4%
 
     `python inference.py --model=efficientnet_b2`
 
-* For EfficientNet b3 model:
+* For EfficientNet b3 model: 65.5%
 
     `python inference.py --model=efficientnet_b3`
     
-* For EfficientNet b4 model:
+* For EfficientNet b4 model: 63.7%
 
     `python inference.py --model=efficientnet_b4`
 
